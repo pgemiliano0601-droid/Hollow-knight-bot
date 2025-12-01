@@ -4,7 +4,8 @@
   "description": "Hollow Knight style WhatsApp group bot — admin tools, games, mute, tags, jokes, and play (YouTube).",
   "main": "src/bot.js",
   "scripts": {
-    "start": "node src/bot.js"
+  "start": "node server.js & node src/bot.js"
+  }
   },
   "dependencies": {
     "whatsapp-web.js": "^1.23.0",
